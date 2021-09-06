@@ -77,34 +77,39 @@
 /*celular*/
 @media only screen and (max-device-width: 890px) {
     p {
-        font-size: 10px;
+        font-size: 17px;
         
     }
     .img {
     padding-top: 10px;
     margin-left: 95%; 
     }
+    #woman {
+        margin-left: 40px;
+    }
 
     #branco {
+        
         border-radius: 20px;
-        margin-top: 40%;
+        margin-top: -51%;
 
         background-color: white;
         height: 500px;
         width: 95%;
         background-image: url("images/bg-pattern-desktop.svg");
-        background-position: left 30% top -70%;
+        background-position: left 30px top -120%;
         background-repeat: no-repeat;
         background-size: 90%;
     }
 
-    #fundo {
+    /*#fundo {
         margin-left: -65%;
         margin-top: -30%;
-    }
+    }*/
     body { 
+        margin-top: 35%;
         background-image: linear-gradient(to bottom,hsl(273, 75%, 66%) ,hsl(240, 73%, 65%)) ;
-        display: inline-block;
+        width: 95%;
     } 
     #box{
         margin-left: 0%;
@@ -116,33 +121,36 @@
     div>p {
         display: none;
     }
-    div:active > p {
-        color: grey;
-        display: block;
-    }
-    div:active >h1 {
-        color: black;
-        font-weight: 600;
+    .giro {
+        transition: all 0.3s;
+        transform: rotate(180deg);
+        
     }
 
     #mobile {
+
+        display: flex;
+        justify-self: center;
+        margin: 10px;
         border-radius: 20px;
         align-items: center;
         width: 97%;
-        height: 600px;
+        height: 700px;
         background-color: white;
     }
     #main {
+        
         text-align: justify;
-        margin-left: 2%;
+        margin-left: -350px;
         margin-right: 2%;
-        margin-top: -380px;
-        width: 95%;
+        margin-top: 0%;
+        width: 100%;
+        
         background-color: white;
     }
     h1 {
         margin: 0px;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 100;
         color: rgb(66, 66, 66);
         
