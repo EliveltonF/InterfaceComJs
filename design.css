@@ -1,0 +1,160 @@
+@font-face {
+    font-family: kumbh;
+    src: url('KumbhSans-VariableFont_wght.ttf') format('truetype');
+}
+* {
+    font-family: 'kumbh';
+}
+@media only screen and (min-device-width: 900px) {
+    p {
+        font-size: 15px;
+    }
+    #img {
+    padding-top: 10px;
+    margin-left: 95%; 
+    }
+
+    #branco {
+        border-radius: 20px;
+        margin-top: 5%;
+        margin-left:15%;
+        background-color: white;
+        height: 500px;
+        width: 980px;
+        background-image: url("images/illustration-woman-online-desktop.svg"),url("images/bg-pattern-desktop.svg");
+        background-position: left -15% top 55%,top -290px left -580px;
+        background-repeat: no-repeat,no-repeat;        
+    }
+    #fundo {
+        margin-left: -65%;
+        margin-top: -30%;
+    }
+    body { 
+        height: 100vh;
+        background-image: linear-gradient(to bottom,hsl(273, 75%, 66%) ,hsl(240, 73%, 65%)) ;
+        display: inline-block;
+    } 
+    #box{
+        margin-left: -13%;
+        margin-top: 22%;
+    }
+    div:hover > h1 {
+    color:coral;
+    }
+    div:active > img {
+        transform: rotate(180deg);
+    }
+    div>p {
+        display: none;
+    }
+    div:active > p {
+        color: grey;
+        display: block;
+    }
+    div:active >h1 {
+        color: black;
+        font-weight: 600;
+    }
+
+
+    #main {
+        margin-left: 680px;
+        margin-top: -460px;
+        width: 410px;
+        background-color: white;
+    }
+    h1 {
+        margin: 0px;
+        font-size: 18px;
+        font-weight: 100;
+        color: rgb(66, 66, 66);
+        
+    }
+    #linha {
+        margin-top: 20px;
+        height: 1px;
+        background-color: rgba(128, 128, 128, 0.356);
+    }
+}
+/*celular*/
+@media only screen and (max-device-width: 890px) {
+    p {
+        font-size: 10px;
+        
+    }
+    #img {
+    padding-top: 10px;
+    margin-left: 95%; 
+    }
+
+    #branco {
+        border-radius: 20px;
+        margin-top: 40%;
+
+        background-color: white;
+        height: 500px;
+        width: 95%;
+        background-image: url("images/bg-pattern-desktop.svg");
+        background-position: left 30% top -70%;
+        background-repeat: no-repeat;
+        background-size: 90%;
+    }
+
+    #fundo {
+        margin-left: -65%;
+        margin-top: -30%;
+    }
+    body { 
+        background-image: linear-gradient(to bottom,hsl(273, 75%, 66%) ,hsl(240, 73%, 65%)) ;
+        display: inline-block;
+    } 
+    #box{
+        margin-left: 0%;
+        margin-top: -35%;
+    }
+    div:active > img {
+        transform: rotate(180deg);
+    }
+    div>p {
+        display: none;
+    }
+    div:active > p {
+        color: grey;
+        display: block;
+    }
+    div:active >h1 {
+        color: black;
+        font-weight: 600;
+    }
+
+    #mobile {
+        border-radius: 20px;
+        align-items: center;
+        width: 97%;
+        height: 600px;
+        background-color: white;
+    }
+    #main {
+        text-align: justify;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: -380px;
+        width: 95%;
+        background-color: white;
+    }
+    h1 {
+        margin: 0px;
+        font-size: 18px;
+        font-weight: 100;
+        color: rgb(66, 66, 66);
+        
+    }
+    h2 {
+        text-align: center;
+    }
+    #linha {
+        margin-top: 20px;
+        height: 1px;
+        background-color: rgba(128, 128, 128, 0.356);
+    }
+}
