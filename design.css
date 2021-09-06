@@ -9,11 +9,11 @@
     p {
         font-size: 15px;
     }
-    #img {
+    .img {
     padding-top: 10px;
-    margin-left: 95%; 
+    margin-left: 95%;
+    
     }
-
     #branco {
         border-radius: 20px;
         margin-top: 5%;
@@ -41,15 +41,9 @@
     div:hover > h1 {
     color:coral;
     }
-    div:active > img {
-        transform: rotate(180deg);
-    }
+
     div>p {
         display: none;
-    }
-    div:active > p {
-        color: grey;
-        display: block;
     }
     div:active >h1 {
         color: black;
@@ -58,6 +52,7 @@
 
 
     #main {
+        max-height: 440px;
         margin-left: 680px;
         margin-top: -460px;
         width: 410px;
