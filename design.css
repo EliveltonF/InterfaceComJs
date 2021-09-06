@@ -84,22 +84,26 @@
     padding-top: 10px;
     margin-left: 95%; 
     }
+ 
     #woman {
-        margin-left: 40px;
+    margin-left: -0px;
+    margin-bottom: -0px;
+
     }
 
     #branco {
-        
+        display: flex;
+        justify-content: center;        
         border-radius: 20px;
-        margin-top: -51%;
+        margin-top: 0%;
 
         background-color: white;
-        height: 500px;
-        width: 95%;
+        height: 770px;
+        
         background-image: url("images/bg-pattern-desktop.svg");
-        background-position: left 30px top -120%;
+        background-position: top -480px center;
         background-repeat: no-repeat;
-        background-size: 90%;
+        background-size: 600px;
     }
 
     /*#fundo {
@@ -109,42 +113,27 @@
     body { 
         margin-top: 35%;
         background-image: linear-gradient(to bottom,hsl(273, 75%, 66%) ,hsl(240, 73%, 65%)) ;
-        width: 95%;
+
     } 
     #box{
         margin-left: 0%;
         margin-top: -35%;
     }
-    div:active > img {
-        transform: rotate(180deg);
-    }
+
     div>p {
         display: none;
     }
     .giro {
         transition: all 0.3s;
-        transform: rotate(180deg);
-        
-    }
-
-    #mobile {
-
-        display: flex;
-        justify-self: center;
-        margin: 10px;
-        border-radius: 20px;
-        align-items: center;
-        width: 97%;
-        height: 700px;
-        background-color: white;
+        transform: rotate(180deg);   
     }
     #main {
         
         text-align: justify;
-        margin-left: -350px;
-        margin-right: 2%;
-        margin-top: 0%;
-        width: 100%;
+        margin-left: 3%;
+        margin-right: 0%;
+        margin-top: -650px;
+        width: 95%;
         
         background-color: white;
     }
