@@ -41,15 +41,18 @@
     div:hover > h1 {
     color:coral;
     }
+    .giro {
+        transition: all 0.3s;
+        transform: rotate(180deg);
+        
+    }
+
 
     div>p {
         display: none;
     }
-    div:active >h1 {
-        color: black;
-        font-weight: 600;
-    }
 
+    
 
     #main {
         max-height: 440px;
@@ -77,7 +80,7 @@
         font-size: 10px;
         
     }
-    #img {
+    .img {
     padding-top: 10px;
     margin-left: 95%; 
     }
